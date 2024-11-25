@@ -2,7 +2,7 @@
 
 Debemos de ingresar a Amazon AWS, buscar el servicio EMR y allí haremos clic en el botón 'Crear Cluster'.
 
-![Crear cluster](Fotos3-0/creacion_cluster.png)
+![Crear cluster](fotos3-0/creacion_cluster.png)
 
 Para estos laboratorios, estaremos utilizando diversas aplicaciones, es por esto que debemos de seleccionar los paquetes adecuados para que el cluster funcione de manera correcta.
 
@@ -26,13 +26,13 @@ Además de esto debemos las siguientes configuraciones del AWS Glue Data Catalog
 
 Ahora debemos de elegir las máquinas EC2 del cluster. Es recomendable cambiar la versión que viene por defecto (m5.xlarge) por una menor (m4.xlarge)
 
-![Máquinas EC2](Fotos3-0/soft_config.png)
+![Máquinas EC2](fotos3-0/soft_config.png)
 
 Dejar los siguientes ajustes por defecto hasta el apartado de Software settings.
 
 Antes de configurar esto, debemos de ir al servicio S3 y crear nuestro propio bucket.
 
-![Bucket](Fotos3-0/s3.png)
+![Bucket](fotos3-0/s3.png)
 
 
 Ahora podemos realizar la siguiente configuración. 
@@ -62,8 +62,8 @@ Por otro lado, el los grupos de seguridad del nodo master, debemos de habilitar 
 
 Una vez creado el cluster, podemos acceder a la aplicación de HUE, en donde crearemos nuestro usuario (debe ser hadoop) y nuestra contraseña. 
 
-![HUE](Fotos3-0/Hue.png)
+![HUE](fotos3-0/Hue.png)
 
 Podemos realizar lo mismo con JupyterHub. en este caso nuestro usuario será jovyan y nuestra contraseña jupyter.
 
-![Jupyter](Fotos3-0/pyspark.png)
+![Jupyter](fotos3-0/pyspark.png)
